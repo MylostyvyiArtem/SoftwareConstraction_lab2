@@ -16,7 +16,7 @@ class Character {
         console.log(`Inventory: ${this.inventory.join(", ")}`);
     }
 }
-
+// Композиція може
 class CharacterBuilder {
     constructor() {
         this.character = new Character();
